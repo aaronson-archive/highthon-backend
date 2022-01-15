@@ -5,7 +5,6 @@ import { GlobalMulterModule } from '@config/Multer';
 import { RecogniseModule } from '@src/recognise';
 import { CertificateModule } from '@src/verify';
 import { ReputeModule } from '@src/repute';
-import { CompanyModule } from '@src/company';
 
 @Module({
   imports: [
@@ -15,7 +14,6 @@ import { CompanyModule } from '@src/company';
     RecogniseModule,
     CertificateModule,
     ReputeModule,
-    CompanyModule,
   ],
 })
 export class AppModule {}
