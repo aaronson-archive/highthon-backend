@@ -7,6 +7,6 @@ import { ReputeService } from './repute.service';
   imports: [],
   controllers: [ReputeController],
   providers: [ReputeService, ReputeRepository],
-  exports: [],
+  exports: [ReputeRepository],
 })
 export class ReputeModule {}
